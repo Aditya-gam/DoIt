@@ -5,6 +5,7 @@ public class ToDoModel {
     private String task;
 
     public int getId() {
+
         return id;
     }
 
@@ -17,6 +18,7 @@ public class ToDoModel {
     }
 
     public void setStatus(int status) {
+
         this.status = status;
     }
 
